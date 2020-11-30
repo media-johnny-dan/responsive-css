@@ -1,5 +1,5 @@
 body {
-	width: 339px;
+	width: 400px;
 	padding: 10px;
 }
 
@@ -36,15 +36,15 @@ ul.nav-links {
 }
 
 img {
-	width: 339px;
-	height: 224px;
+	width: 400px;
+	height: 264px;
 }
 
 .sub-section {
 	font-style: italic;
 }
 
-@media screen and (min-width: 340px) {
+@media screen and (min-width: 401px) {
 	.hidden-on-desktop {
 		display: none;
 	}
