@@ -78,13 +78,19 @@ img {
 		height: 385px;
 	}
 
+	section {
+		margin-bottom: 50px;
+	}
+
 	section.main {
-		width: 60%;
+		width: calc(60% - 20px);
 		float: left;
-		padding-right: 8px;
+		margin-right: 10%;
 	}
 
 	section.sub-section {
 		margin-right: 20px;
+		width: 30%;
+		float: right;
 	}
 }
