@@ -1,6 +1,9 @@
 html   {
     margin: 10px;
 }
+body {
+    width: 900px;
+}
 
 .alert-info {
     width: 100%;
@@ -13,4 +16,20 @@ html   {
 .alert-info a {
     text-decoration: none;
     color: black;
+}
+
+h1 {
+    text-align: center;
+}
+.nav-links li {
+    list-style: none;
+    background-color: #ccc;
+    margin: 5px 0;
+    text-align: center;
+    padding: 10px;
+
+}
+.nav-links a {
+    text-decoration: underline;
+    color: blue;
 }
