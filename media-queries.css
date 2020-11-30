@@ -29,7 +29,7 @@ ul.nav-links {
 .nav-links li {
     list-style: none;
     background-color: #ccc;
-    margin: 5px 0;
+    margin: 10px 0;
     text-align: center;
     padding: 10px;
 
@@ -47,4 +47,8 @@ ul.nav-links {
 img {
     width: 339px;
     height: 224px;
+}
+
+.sub-section p {
+    font-style: italic;
 }
