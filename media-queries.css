@@ -1,12 +1,13 @@
-html   {
-    margin: 10px;
-}
+/*html   {*/
+/*    margin: 10px;*/
+/*}*/
 body {
-    width: 900px;
+    width: 339px;
+    padding: 10px;
 }
 
 .alert-info {
-    width: 100%;
+    /*width: 339px;*/
     padding: 20px;
     background: aquamarine;
     text-align: center;
@@ -21,6 +22,10 @@ body {
 h1 {
     text-align: center;
 }
+
+ul.nav-links {
+    padding: 0;
+}
 .nav-links li {
     list-style: none;
     background-color: #ccc;
@@ -32,4 +37,14 @@ h1 {
 .nav-links a {
     text-decoration: underline;
     color: blue;
+}
+
+.header-img {
+    /*margin: 0 auto;*/
+    /*max-width: 339px;*/
+}
+
+img {
+    width: 339px;
+    height: 224px;
 }
