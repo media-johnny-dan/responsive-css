@@ -1,0 +1,16 @@
+html   {
+    margin: 10px;
+}
+
+.alert-info {
+    width: 100%;
+    padding: 20px;
+    background: aquamarine;
+    text-align: center;
+    border: 3px solid lightgray;
+}
+
+.alert-info a {
+    text-decoration: none;
+    color: black;
+}
