@@ -48,7 +48,16 @@ img {
 	font-style: italic;
 }
 
-@media screen and (min-width: 401px) {
+footer {
+	/*float: right;*/
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	/*padding: 10px;*/
+	align-items: center;
+}
+
+@media screen and (min-width: 481px) {
 	.hidden-on-desktop {
 		display: none;
 	}
@@ -96,5 +105,14 @@ img {
 		margin-right: 20px;
 		width: 30%;
 		float: right;
+	}
+
+	footer {
+		width: 100%;
+		/*margin-right: 0px;*/
+	}
+
+	#social-media-links {
+		margin-right: 40px;
 	}
 }
